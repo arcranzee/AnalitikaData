@@ -55,3 +55,12 @@ X_test.head(5)
 
 #melihat data y untuk test
 y_test.head(5)
+
+#cek precision, sensitivity, dan f-score
+prec = 24000/(24000+4100)
+sens = 24000/(24000+2200)
+f_score = (2*sens*prec)/(sens+prec)
+
+prec
+sens
+f_score
