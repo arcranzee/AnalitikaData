@@ -174,3 +174,12 @@ ax.set_xlabel("Distance From Last Transaction")
 ax.set_ylabel("Frequency")
 ax.legend();
 plt.show()
+
+#cek precision, sensitivity, dan f-score
+prec = 13000/(13000+1600)
+sens = 13000/(13000+8800)
+f_score = (2*sens*prec)/(sens+prec)
+
+prec
+sens
+f_score
